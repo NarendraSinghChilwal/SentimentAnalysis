@@ -1,0 +1,15 @@
+# .gitignore
+
+# Byte-compiled or optimized files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore raw dataset files in data/ (don’t commit large CSVs)
+data/*.csv
+
+# Local virtual environment folders
+venv/
+env/
